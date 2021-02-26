@@ -1,0 +1,40 @@
+.background {
+  height: 100vh;
+  /* background-color: brown; */
+  background-image: url("../assets/backgroundHome.svg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+.containerText {
+  width: 700px;
+  background-image: url("../assets//backGold.png");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.containerText .textHome {
+  margin: 40% auto;
+  width: 500px;
+}
+.containerText .textHome h1 {
+  font-size: 34px;
+  padding-left: 40px;
+}
+.containerText .textHome h1 strong {
+  background-color: #efd040;
+}
+.containerText .textHome p {
+  width: 356px;
+  padding-left: 40px;
+  color: black;
+}
+.containerText .textHome button {
+  margin-left: 40px;
+  padding: 11px 24px;
+  background-color: #efd040;
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+}
