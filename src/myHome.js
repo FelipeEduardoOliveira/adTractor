@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import Home from "./pages/home";
 import SobreNos from "./components/sobrenos";
+import Pecas from "./components/pecas";
+import Marcas from "./components/nossasMarcas";
 
 class MyHome extends Component {
   constructor(props) {
@@ -14,6 +16,8 @@ class MyHome extends Component {
       <div>
         <Home />
         <SobreNos />
+        <Pecas />
+        <Marcas />
       </div>
     );
   }

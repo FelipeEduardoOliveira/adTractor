@@ -1,0 +1,48 @@
+.pecas {
+  margin-top: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f2edd5;
+}
+
+.pecas .container1 {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+.pecas .container1 h1 {
+  color: #31353a;
+  text-transform: uppercase;
+}
+.pecas .container1 button {
+  margin-top: 33px;
+  margin-bottom: 56px;
+  /* margin-left: 40px; */
+  padding: 11px 24px;
+  background-color: #efd040;
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.pecas .container1 p {
+  margin: 0;
+}
+.pecas .container2 {
+  background-image: url("../../assets/Wheels2.svg");
+  background-size: cover;
+  background-position: center;
+  width: 306px;
+}
+.pecas .container2 p {
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 100px;
+}
+.pecas .container2 .text {
+  margin-top: 59px;
+}

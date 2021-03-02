@@ -1,0 +1,33 @@
+.marcas {
+  margin-top: 40px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.marcas .container1 {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+.marcas .container1 h1 {
+  color: #efd040;
+  text-transform: uppercase;
+}
+
+.marcas .container1 p {
+  letter-spacing: 1px;
+}
+
+.carousel .slide {
+  background-color: #fff !important;
+  align-items: center !important;
+}
+.carousel .slider-wrapper.axis-horizontal .slider .slide {
+  text-align: -webkit-center;
+}
+.carouselWidth {
+  width: 170px;
+}
