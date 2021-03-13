@@ -11,11 +11,12 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <div className="logo">
-          <img src={logo} alt="Ilustração de um trator com o nome da empresa" />
-        </div>
+        {/* <div className="logo">
+          
+        </div> */}
 
         <div className="menuBar">
+          <img src={logo} alt="Ilustração de um trator com o nome da empresa" />
           <nav>
             <ul>
               <li>Home</li>
@@ -26,7 +27,7 @@ class Header extends Component {
             </ul>
           </nav>
 
-          <div className="faleConosco">
+          <div className="faleConoscoHeader">
             <h1>Fale Conosco</h1>
           </div>
         </div>

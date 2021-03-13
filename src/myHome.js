@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import SobreNos from "./components/sobrenos";
 import Pecas from "./components/pecas";
 import Marcas from "./components/nossasMarcas";
+import FaleConosco from "./components/faleConosco";
 
 class MyHome extends Component {
   constructor(props) {
@@ -18,6 +19,7 @@ class MyHome extends Component {
         <SobreNos />
         <Pecas />
         <Marcas />
+        <FaleConosco />
       </div>
     );
   }

@@ -46,3 +46,14 @@
 .pecas .container2 .text {
   margin-top: 59px;
 }
+
+@media (max-width: 905px) {
+  .pecas {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pecas .container1 p {
+    text-align: justify;
+  }
+}

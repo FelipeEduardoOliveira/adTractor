@@ -31,3 +31,12 @@
 .carouselWidth {
   width: 170px;
 }
+
+.carousel .carousel-status {
+  display: none;
+}
+.control-arrow {
+  margin: 0 50px;
+  background-color: tomato !important;
+  color: black;
+}

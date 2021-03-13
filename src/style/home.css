@@ -38,3 +38,30 @@
   border: none;
   text-transform: uppercase;
 }
+
+@media (max-width: 905px) {
+  .containerText {
+    width: 100%;
+    background-image: url("../assets//backGold.png");
+    /* background-size: 400px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .containerText .textHome {
+    /* margin: 0; */
+    width: 100%;
+  }
+  .containerText .textHome h1 {
+    text-align: start;
+  }
+  .containerText .textHome p {
+    width: 300px;
+    margin: 30px auto;
+    text-align: start;
+    padding-left: 0;
+    /* color: black; */
+  }
+}

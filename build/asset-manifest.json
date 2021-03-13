@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9c0932f.chunk.css",
+    "main.js": "/static/js/main.983a9144.chunk.js",
+    "main.js.map": "/static/js/main.983a9144.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.82f56b98.js",
+    "runtime-main.js.map": "/static/js/runtime-main.82f56b98.js.map",
+    "static/css/2.631cbb15.chunk.css": "/static/css/2.631cbb15.chunk.css",
+    "static/js/2.ce65c1d0.chunk.js": "/static/js/2.ce65c1d0.chunk.js",
+    "static/js/2.ce65c1d0.chunk.js.map": "/static/js/2.ce65c1d0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.631cbb15.chunk.css.map": "/static/css/2.631cbb15.chunk.css.map",
+    "static/css/main.a9c0932f.chunk.css.map": "/static/css/main.a9c0932f.chunk.css.map",
+    "static/js/2.ce65c1d0.chunk.js.LICENSE.txt": "/static/js/2.ce65c1d0.chunk.js.LICENSE.txt",
+    "static/media/Trator.3e37ade9.svg": "/static/media/Trator.3e37ade9.svg",
+    "static/media/index.css": "/static/media/tractorFooter.9a09b6ae.svg",
+    "static/media/home.css": "/static/media/backgroundHome.59c95af0.svg",
+    "static/media/casse.ab8f7172.png": "/static/media/casse.ab8f7172.png",
+    "static/media/cat.ef03b250.png": "/static/media/cat.ef03b250.png",
+    "static/media/email.692c206f.svg": "/static/media/email.692c206f.svg",
+    "static/media/hyundai.246d84b8.png": "/static/media/hyundai.246d84b8.png",
+    "static/media/logo.086a37fa.svg": "/static/media/logo.086a37fa.svg",
+    "static/media/volvo.2aac69f5.png": "/static/media/volvo.2aac69f5.png",
+    "static/media/whatsApp.e3d16c1c.svg": "/static/media/whatsApp.e3d16c1c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82f56b98.js",
+    "static/css/2.631cbb15.chunk.css",
+    "static/js/2.ce65c1d0.chunk.js",
+    "static/css/main.a9c0932f.chunk.css",
+    "static/js/main.983a9144.chunk.js"
+  ]
+}

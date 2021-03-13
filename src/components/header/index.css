@@ -1,9 +1,8 @@
 header {
   background-color: #e8b06a;
   display: flex;
-  /* width: 100%; */
+  width: 100%;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   padding: 0;
   margin: 0;
@@ -12,11 +11,13 @@ header {
 }
 
 header .menuBar {
-  /* border: 1px solid red; */
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
   align-items: center;
   font-size: 18px;
+  width: 100%;
+  padding: 0 20px;
 }
 header .menuBar nav ul {
   /* border: 1px solid blue; */
@@ -25,28 +26,44 @@ header .menuBar nav ul {
   flex-direction: row;
 }
 header .menuBar nav ul li {
-  padding: 0 21px;
+  /* padding: 0 21px; */
   margin: 0 65px;
 }
 header .menuBar nav ul li:hover {
   color: #efd040;
   cursor: pointer;
 }
-header .logo {
-  padding-left: 78px;
-}
 
 header .logo img {
   width: 94px;
   height: 76px;
 }
-header .faleConosco {
-  padding-right: 79px;
-}
-header .faleConosco h1 {
+header .faleConoscoHeader h1 {
   font-size: 18px;
   background-color: #f2edd5;
   padding: 14px 15px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+@media (max-width: 905px) {
+  header .menuBar {
+    padding: 0;
+  }
+  header .menuBar img {
+    display: none;
+  }
+  header .menuBar nav {
+    width: 100%;
+    justify-content: space-around;
+  }
+  header .menuBar nav ul {
+    justify-content: space-around;
+  }
+  header .menuBar nav ul li {
+    margin: 0;
+  }
+  header .faleConoscoHeader {
+    display: none;
+  }
 }
